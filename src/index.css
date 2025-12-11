@@ -1,4 +1,110 @@
 @import "tailwindcss";
+
+@theme {
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-fade-in: fadeIn 1s ease-out forwards;
+  --animate-fade-in-up: fadeInUp 1s ease-out forwards;
+  --animate-blink: blink 1s step-end infinite;
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity:  1;
+    }
+  }
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
+}
+
+. animation-delay-1000 {
+  animation-delay: 1s;
+}
+
+. animation-delay-1500 {
+  animation-delay: 1.5s;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+. animation-delay-2500 {
+  animation-delay: 2.5s;
+}
+
+.animation-delay-3000 {
+  animation-delay: 3s;
+}
+
+.animation-delay-3500 {
+  animation-delay:  3.5s;
+}
+
+. animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+.animate-fade-in,
+.animate-fade-in-up {
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+. animate-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* Custom scrollbar */
+: :-webkit-scrollbar {
+  width:  8px;
+}
+
+::-webkit-scrollbar-track {
+  background:  #FAEDCB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #DBCDF0;
+  border-radius:  4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #C5B5E0;
+}
+
+
+
+
+
 @layer utilities {
   @keyframes fadeIn {
     from { opacity: 0; transform: translateY(10px); }
