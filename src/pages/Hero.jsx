@@ -124,7 +124,7 @@ const Hero = () => {
                 className="text-xl md:text-3xl font-bold tracking-[0.2em]"
                 style={{ color: '#8B6AAF' }}
               >
-                BrainOverBias
+                BrainsOverBias
               </span>
             </div>
           </div>
