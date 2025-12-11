@@ -5,7 +5,7 @@ const About = () => {
     <section
       className="relative w-full py-20 px-6 md:px-12 lg:px-24 font-mono"
       style={{
-        background: "linear-gradient(180deg, #C6DEF1 0%, #DBCDF0 50%, #F2C6DE 100%)",
+       background: "linear-gradient(180deg, #C6DEF1 0%, #DBCDF0 50%, #C6DEF1 100%)",
       }}
     >
       <div className="max-w-6xl mx-auto">
