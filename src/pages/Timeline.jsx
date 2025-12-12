@@ -3,42 +3,75 @@ import React from 'react'
 const Timeline = () => {
   // Timeline events based on the provided image, adapted for HackHer 2026
   const events = [
-    {
-      time: 'Friday - 6:00 pm',
-      title: 'Check-in & welcome circle',
-      description: 'Get your swag, meet your teammates, and settle into our cozy hacker den.',
-      color: '#D4789C', // Pink/Violet
-      dotColor: '#F2C6DE'
-    },
-    {
-      time: 'Friday - 7:30 pm',
-      title: 'Lightning talks & team forming',
-      description: 'Hear rapid-fire inspo from speakers, then pitch or join an idea.',
-      color: '#9B7BB8', // Purple
-      dotColor: '#DBCDF0'
-    },
-    {
-      time: 'Saturday - All day',
-      title: 'Build, mentor sessions & snack breaks',
-      description: 'Code, design, workshop and get unblocked with help from mentors.',
-      color: '#6A9BC3', // Blue
-      dotColor: '#C6DEF1'
-    },
-    {
-      time: 'Sunday - 3:00 pm',
-      title: 'Demos & celebration',
-      description: 'Share what you built, cheer for your peers and celebrate every win.',
-      color: '#5A8A7A', // Green
-      dotColor: '#C9E4DE'
-    },
-  ]
+  {
+    time: "December 9",
+    title: "Registration starts",
+    description: "Kickstart your HackHer journey — applications officially open.",
+    color: "#D4789C",
+    dotColor: "#F2C6DE"
+  },
+  {
+    time: "Pre-event 1",
+    title: "Community warm-up",
+    description: "Icebreakers, mini workshops, and announcements leading up to the hack.",
+    color: "#9B7BB8",
+    dotColor: "#DBCDF0"
+  },
+  {
+    time: "Pre-event 2",
+    title: "Theme reveal & prep session",
+    description: "Learn the challenge themes and prepare with mentors before the hack begins.",
+    color: "#6A9BC3",
+    dotColor: "#C6DEF1"
+  },
+  {
+    time: "December 31",
+    title: "Registrations close",
+    description: "Final day to submit your application — don’t miss it!",
+    color: "#5A8A7A",
+    dotColor: "#C9E4DE"
+  },
+  {
+    time: "TBA",
+    title: "Shortlisting",
+    description: "Selected participants will receive confirmations via email.",
+    color: "#C27BA0",
+    dotColor: "#F4CFE5"
+  },
+  {
+    time: "January 16 — 9:00 AM",
+    title: "Hack starts",
+    description: "Gear up for 18 hours of creation, collaboration, and problem-solving!",
+    color: "#A186CC",
+    dotColor: "#E3D6F6"
+  },
+  {
+    time: "January 17 — 3:00 AM",
+    title: "Hack ends",
+    description: "Tools down! Submit your projects for judging.",
+    color: "#6AB8A3",
+    dotColor: "#D4F1E8"
+  },
+  {
+    time: "January 17 — 10:00 AM",
+    title: "Prize distribution & closing ceremony",
+    description: "Celebrate innovation, teamwork and your 18-hour journey!",
+    color: "#D4A373",
+    dotColor: "#FFE8D1"
+  }
+];
+
 
   // Key Dates (Using the pink theme from the image and Hero.jsx for highlighting)
-  const keyDates = [
-    { label: 'Applications close', date: 'March 1, 2025' },
-    { label: 'Event weekend', date: 'January 17-18, 2026' },
-    { label: 'Venue', date: 'MACE Campus & Online Spaces' },
-  ]
+const keyDates = [
+  { label: "Registration opens", date: "December 9, 2025" },
+  { label: "Registration closes", date: "December 31, 2025" },
+  { label: "Shortlisting", date: "TBA" },
+  { label: "Hackathon starts", date: "January 16, 2026" },
+  { label: "Hackathon ends", date: "January 17, 2026" },
+  { label: "Event duration", date: "18 hours" }
+];
+
 
   return (
     <div 
@@ -58,7 +91,7 @@ style={{
             className="text-3xl md:text-4xl font-bold mb-3"
             style={{ color: '#8B6AAF' }}
           >
-            {'// 48 hours of making magic'}
+            {'// 18 hours of making magic'}
           </h2>
           <p className="text-lg md:text-xl" style={{ color: '#6A5A7A' }}>
             From opening circle to demo night, here's a sneak peek at what your HackHer weekend will look like.
