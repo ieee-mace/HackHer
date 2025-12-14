@@ -102,7 +102,7 @@ const Hero = () => {
           {/* ASCII Art Title */}
           <div className="w-full max-w-5xl mb-6 animate-fade-in-up overflow-x-auto">
             <pre 
-              className="text-[0.8rem] sm:text-[0.8rem] md:text-large lg:text-2xl leading-tight text-center font-bold"
+              className="text-[0.7rem] sm:text-[0.8rem] md:text-large lg:text-2xl leading-tight text-center font-bold"
               style={{ color: '#8B6AAF' }}
             >
 {`                                            

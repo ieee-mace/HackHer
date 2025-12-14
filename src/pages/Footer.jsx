@@ -92,7 +92,7 @@ const Footer = () => {
         {/* Title */}
         {/* Pixel Title */}
 <pre 
-              className="text-[0.8rem] sm:text-[0.8rem] md:text-large lg:text-2xl leading-tight text-center font-bold"
+              className="text-[0.7rem] sm:text-[0.8rem] md:text-large lg:text-2xl leading-tight text-center font-bold"
               style={{ color: '#8B6AAF' }}
             >
 {`                                            
@@ -107,7 +107,7 @@ const Footer = () => {
 
 
 
-  <p className="pb-6 font-semibold tracking-wide text-gray-700 text-center text-sm flex items-center justify-center gap-1">
+  <p className="pb-6 font-semibold tracking-wide text-gray-700 text-center text-xs md:text-sm flex items-center justify-center gap-1">
   <span>2026</span>
 
   <svg
