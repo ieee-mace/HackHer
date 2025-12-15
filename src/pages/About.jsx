@@ -33,9 +33,9 @@ const About = () => {
 
           {/* Subtext */}
           <p className="text-center text-gray-700 max-w-3xl mx-auto mt-4 leading-relaxed">
-            <strong>HackHer 2025</strong> is a 2-day creativity sprint where women and non-binary
-            technologists come together to prototype bold ideas, meet new collaborators,
-            and get mentored by industry leaders.
+            <strong>HackHer 2025</strong> is a 2-day creativity sprint where women technologists
+come together to prototype bold ideas, build meaningful connections,
+and get mentored by industry leaders.
           </p>
 
           {/* Cards Grid */}
@@ -45,8 +45,9 @@ const About = () => {
             <div className="bg-white rounded-2xl shadow-md p-6 border border-purple-100 
                             transition duration-300 hover:scale-105 hover:shadow-xl hover:bg-pink-50">
               <span className="text-xs bg-pink-100 text-pink-700 px-3 py-1 rounded-full font-semibold">
-                New friends
-              </span>
+  New connections
+</span>
+
               <h3 className="mt-4 font-semibold text-gray-900">Safe & supportive</h3>
               <p className="text-gray-600 text-sm mt-2">
                 A welcoming, beginner-friendly space where every question is valid and every voice matters.
@@ -77,17 +78,7 @@ const About = () => {
               </p>
             </div>
 
-            {/* Card 4 */}
-            <div className="bg-white rounded-2xl shadow-md p-6 border border-purple-100
-                            transition duration-300 hover:scale-105 hover:shadow-xl hover:bg-purple-50">
-              <span className="text-xs bg-purple-100 text-purple-700 px-3 py-1 rounded-full font-semibold">
-                Hybrid
-              </span>
-              <h3 className="mt-4 font-semibold text-gray-900">Join from anywhere</h3>
-              <p className="text-gray-600 text-sm mt-2">
-                Join us in person or dial in from your cozy corner of the world — fully hybrid format.
-              </p>
-            </div>
+            
 
           </div>
         </div>
