@@ -32,7 +32,7 @@ const Timeline = () => {
     dotColor: "#C9E4DE"
   },
   {
-    time: "TBA",
+    time: "January 9",
     title: "Shortlisting",
     description: "Selected participants will receive confirmations via email.",
     color: "#C27BA0",

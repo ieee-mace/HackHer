@@ -174,13 +174,13 @@ const Hero = () => {
                 <div className="flex flex-wrap gap-x-2">
                   <span style={{ color: '#D4789C' }}>"date"</span>
                   <span style={{ color: '#6A5A7A' }}>:</span>
-                  <span style={{ color:  '#5A8A7A' }}>"January 17, 2026"</span>
+                  <span style={{ color:  '#5A8A7A' }}>"January 16-17, 2026"</span>
                   <span style={{ color: '#6A5A7A' }}>,</span>
                 </div>
                 <div className="flex flex-wrap gap-x-2">
                   <span style={{ color:  '#D4789C' }}>"venue"</span>
                   <span style={{ color: '#6A5A7A' }}>:</span>
-                  <span style={{ color:  '#5A8A7A' }}>"MACE Campus"</span>
+                  <span style={{ color:  '#5A8A7A' }}>"Mar Athanasius College of Engineering,Kothamangalam"</span>
                   <span style={{ color: '#6A5A7A' }}>,</span>
                 </div>
                 <div className="flex flex-wrap gap-x-2">
