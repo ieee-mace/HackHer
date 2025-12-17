@@ -39,7 +39,7 @@ and get mentored by industry leaders.
           </p>
 
           {/* Cards Grid */}
-          <div className="grid md:grid-cols-4 gap-6 mt-12">
+          <div className="grid md:grid-cols-3 gap-8 mt-12">
 
             {/* Card 1 */}
             <div className="bg-white rounded-2xl shadow-md p-6 border border-purple-100 
