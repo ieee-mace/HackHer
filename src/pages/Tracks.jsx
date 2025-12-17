@@ -1,4 +1,4 @@
-import React from 'react'
+{/*import React from 'react'
 
 const Tracks = () => {
   const tracks = [
@@ -40,7 +40,7 @@ const Tracks = () => {
     >
       <div className="relative z-10 max-w-5xl mx-auto">
         
-        {/* Section Header */}
+         Section Header 
         <div className="text-center mb-12">
           <p className="text-sm font-semibold uppercase tracking-widest mb-2" style={{ color: '#D4789C' }}>
             Tracks
@@ -56,7 +56,7 @@ const Tracks = () => {
           </p>
         </div>
 
-        {/* Tracks Grid */}
+        {/* Tracks Grid 
         <div className="grid md:grid-cols-2 gap-4">
           {tracks.map((track) => (
             <div 
@@ -94,7 +94,7 @@ const Tracks = () => {
           ))}
         </div>
 
-        {/* Footer */}
+        {/* Footer *
         <div className="mt-8 text-sm" style={{ color: '#8A7A9A' }}>
           <span style={{ color: '#5A8A7A' }}>{'// '}</span>
           <span>Open to all innovative ideas</span>
@@ -102,6 +102,51 @@ const Tracks = () => {
         </div>
 
       </div>
+    </div>
+  )
+}
+
+export default Tracks*/}
+
+
+import React from 'react'
+
+const Tracks = () => {
+
+  return (
+    <div 
+      id="tracks"
+      className="relative w-full py-20 px-6 md:px-12 lg:px-24 font-mono flex items-center justify-center"
+      style={{ background: 'linear-gradient(180deg, #C6DEF1 0%, #DBCDF0 50%, #F2C6DE 100%)' }}
+    >
+
+      
+
+      {/* Coming Soon Placeholder */}
+      <div className="text-center">
+        <p
+          className="text-sm font-semibold uppercase tracking-widest mb-2"
+          style={{ color: '#D4789C' }}
+        >
+          Tracks
+        </p>
+
+        <h2
+          className="text-4xl md:text-5xl font-bold mb-4"
+          style={{ color: '#8B6AAF' }}
+        >
+          Coming Soon
+        </h2>
+
+        <p className="text-lg" style={{ color: '#6A5A7A' }}>
+          Hackathon tracks will be revealed shortly. Stay tuned 🚀
+        </p>
+
+        <span className="inline-block mt-4 animate-blink text-xl" style={{ color: '#D4789C' }}>
+          _
+        </span>
+      </div>
+
     </div>
   )
 }

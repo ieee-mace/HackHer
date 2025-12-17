@@ -60,13 +60,14 @@ const Footer = () => {
 
         </div>
 
-        {/* Location */}
-        <div className="flex items-center gap-3 mb-20 hover:scale-105 transition-transform">
-          <IoLocationSharp className="text-purple-600 text-3xl" />
-          <p className="text-xl font-bold text-center">
-            Mar Athanasius College of Engineering, Kothamangalam
-          </p>
-        </div>
+       {/* Location */}
+      <div className="flex items-start gap-3 mb-16 hover:scale-105 transition-transform px-4 text-center md:text-left">
+        <IoLocationSharp className="text-purple-600 text-3xl mt-1 shrink-0" />
+        <p className="text-xl font-bold text-gray-700 leading-snug">
+          Mar Athanasius College of Engineering, Kothamangalam
+        </p>
+      </div>
+
 
         {/* Social Icons */}
         <div className="flex gap-8 mb-16">

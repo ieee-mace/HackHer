@@ -13,7 +13,7 @@ const Hero = () => {
   const fullText = 'The first-ever women-centric hackathon by IEEE MACE SB.  18 hours of innovation, creativity, and code.'
 
   useEffect(() => {
-    const hackathonDate = new Date('2026-01-17T09:00:00').getTime()
+    const hackathonDate = new Date('2026-01-16T09:00:00').getTime()
 
     const timer = setInterval(() => {
       const now = new Date().getTime()
