@@ -171,23 +171,17 @@ const Hero = () => {
               <div style={{ color: '#6A5A7A' }}>{'{'}</div>
               <div className="pl-6 space-y-2 py-2">
 
-                <div className="flex flex-wrap gap-x-2">
-                  <span style={{ color: '#D4789C' }}>"date"</span>
-                  <span style={{ color: '#6A5A7A' }}>:</span>
-                  <span style={{ color:  '#5A8A7A' }}>"January 16-17, 2026"</span>
-                  <span style={{ color: '#6A5A7A' }}>,</span>
+                <div className="flex flex-wrap gap-x-1">
+                  <span style={{ color: '#D4789C' }}>"date":</span>
+                  <span style={{ color:  '#5A8A7A' }}>"January 16-17, 2026",</span>
                 </div>
                 <div className="flex flex-wrap gap-x-2">
-                  <span style={{ color:  '#D4789C' }}>"venue"</span>
-                  <span style={{ color: '#6A5A7A' }}>:</span>
-                  <span style={{ color:  '#5A8A7A' }}>"Mar Athanasius College of Engineering,Kothamangalam"</span>
-                  <span style={{ color: '#6A5A7A' }}>,</span>
+                  <span style={{ color:  '#D4789C' }}>"venue":</span>
+                  <span style={{ color:  '#5A8A7A' }}>"Mar Athanasius College of Engineering, Kothamangalam",</span>
                 </div>
                 <div className="flex flex-wrap gap-x-2">
-                  <span style={{ color: '#D4789C' }}>"duration"</span>
-                  <span style={{ color: '#6A5A7A' }}>:</span>
+                  <span style={{ color: '#D4789C' }}>"duration":</span>
                   <span style={{ color:  '#5A8A7A' }}>"18 hours"</span>
-                  <span style={{ color: '#6A5A7A' }}>,</span>
                 </div>
                 
               </div>
