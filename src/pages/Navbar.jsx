@@ -203,7 +203,9 @@ const Navbar = () => {
             {/* Mobile Register Button */}
             <div className="pt-4 mt-4" style={{ borderTop:  '1px solid #DBCDF0' }}>
               <a 
-                href="/register"
+                href="https://forms.gle/5F6S3r9mC1mKcGJC6"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center justify-center gap-3 w-full py-4 rounded-lg font-medium transition-all duration-300 hover:scale-[1.02]"
                 style={{ 
                   background: 'linear-gradient(135deg, #DBCDF0 0%, #F2C6DE 50%, #C9E4DE 100%)',
