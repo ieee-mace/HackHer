@@ -25,7 +25,7 @@ const Timeline = () => {
     dotColor: "#C6DEF1"
   },
   {
-    time: "December 21",
+    time: "December 31",
     title: "Registrations close",
     description: "Final day to submit your application — don’t miss it!",
     color: "#5A8A7A",
@@ -65,7 +65,7 @@ const Timeline = () => {
   // Key Dates (Using the pink theme from the image and Hero.jsx for highlighting)
 const keyDates = [
   { label: "Registration opens", date: "December 9, 2025" },
-  { label: "Registration closes", date: "December 21, 2025" },
+  { label: "Registration closes", date: "December 31, 2025" },
   { label: "Shortlisting", date: "January 9, 2026" },
   { label: "Hackathon starts", date: "January 16, 2026" },
   { label: "Hackathon ends", date: "January 17, 2026" },
