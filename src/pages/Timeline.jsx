@@ -39,21 +39,21 @@ const Timeline = () => {
     dotColor: "#F4CFE5"
   },
   {
-    time: "January 16 — 9:00 AM",
+    time: "January 16 — 2:00 PM",
     title: "Hack starts",
     description: "Gear up for 18 hours of creation, collaboration, and problem-solving!",
     color: "#A186CC",
     dotColor: "#E3D6F6"
   },
   {
-    time: "January 17 — 3:00 AM",
+    time: "January 17 — 8:00 AM",
     title: "Hack ends",
     description: "Tools down! Submit your projects for judging.",
     color: "#6AB8A3",
     dotColor: "#D4F1E8"
   },
   {
-    time: "January 17 — 10:00 AM",
+    time: "January 17 — 4:00 PM",
     title: "Prize distribution & closing ceremony",
     description: "Celebrate innovation, teamwork and your 18-hour journey!",
     color: "#D4A373",
